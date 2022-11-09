@@ -108,7 +108,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_snc_com_data_int_integration_service_job_tracker">x_snc_com_data_int_integration_service_job_tracker</reference>
+        <reference display_value="">x_snc_com_data_int_integration_service_job_tracker</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -545,9 +545,8 @@ full_pull﻿:  </value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=232cd29347265110a4be65a5d36d4343"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
-        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <action_type display_value="">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>Get value of sign field</comment>
         <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
         <display_text/>
@@ -565,19 +564,6 @@ full_pull﻿:  </value>
         <ui_id>c31f4c40-85ed-4fc4-94ac-dfb9c94da400</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=622cd29347265110a4be65a5d36d4308"/>
-    <sys_element_mapping action="delete_multiple" query="id=622cd29347265110a4be65a5d36d4308"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>properties</field>
-        <id>622cd29347265110a4be65a5d36d4308</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
-        <sys_id>662cd29347265110a4be65a5d36d4309</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
-        <value>{{subflow.service_record.integration_service.properties}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=622cd29347265110a4be65a5d36d4308^sys_idNOT IN222cd29347265110a4be65a5d36d4309"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -595,9 +581,8 @@ full_pull﻿:  </value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=622cd29347265110a4be65a5d36d4308"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
-        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <action_type display_value="">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>Get value of full_pull field</comment>
         <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
         <display_text/>
@@ -615,19 +600,6 @@ full_pull﻿:  </value>
         <ui_id>3eb23896-eb1b-465d-8238-3480569ec3d1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6e2cd29347265110a4be65a5d36d4317"/>
-    <sys_element_mapping action="delete_multiple" query="id=6e2cd29347265110a4be65a5d36d4317"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>properties</field>
-        <id>6e2cd29347265110a4be65a5d36d4317</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
-        <sys_id>622cd29347265110a4be65a5d36d4319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
-        <value>{{subflow.service_record.integration_service.properties}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6e2cd29347265110a4be65a5d36d4317^sys_idNOT IN2e2cd29347265110a4be65a5d36d4318"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -645,9 +617,8 @@ full_pull﻿:  </value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e2cd29347265110a4be65a5d36d4317"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Materials By Plant New">c47e2f2387829910fd73642d0ebb35bf</action_type>
-        <action_type_parent display_value="Look up Materials By Plant New">a760c6a287c65510fd73642d0ebb3590</action_type_parent>
+        <action_type display_value="">c47e2f2387829910fd73642d0ebb35bf</action_type>
+        <action_type_parent display_value="">a760c6a287c65510fd73642d0ebb3590</action_type_parent>
         <comment/>
         <compiled_snapshot>c47e2f2387829910fd73642d0ebb35bf</compiled_snapshot>
         <display_text/>
@@ -677,7 +648,7 @@ full_pull﻿:  </value>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"name$":"FDd87e2f23058299100a13db81369d3fc5","$COCollectionField":[{"MATNR_HIGH_GUID":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH_LONG":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH_EXTERNAL":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH_VERSION":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_GUID":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_LONG":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_VERSION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_EXTERNAL":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FDd87e2f23058299100a13db81369d3fc5":{"$COCollectionField":[{"item":{"MATNR_HIGH_GUID":"String","MATNR_HIGH_GUID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"GUID (External) [ MATNR_HIGH_GUID ]\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"MATNR_HIGH":"String","MATNR_HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"To material number [MATNR_HIGH]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"MATNR_HIGH_LONG":"String","MATNR_HIGH_LONG.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material [ MATNR_HIGH_LONG ]\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"MATNR_HIGH_EXTERNAL":"String","MATNR_HIGH_EXTERNAL.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material Number [ MATNR_HIGH_EXTERNAL ]\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"MATNR_HIGH_VERSION":"String","MATNR_HIGH_VERSION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version Number [ MATNR_HIGH_VERSION ]\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Selection operator [OPTION]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"MATNR_LOW_GUID":"String","MATNR_LOW_GUID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"GUID (External) [ MATNR_LOW_GUID ]\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"MATNR_LOW_LONG":"String","MATNR_LOW_LONG.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material [ MATNR_LOW_LONG ]\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"MATNR_LOW_VERSION":"String","MATNR_LOW_VERSION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version Number [ MATNR_LOW_VERSION ]\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Inclusive/exclusive [SIGN]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"MATNR_LOW_EXTERNAL":"String","MATNR_LOW_EXTERNAL.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material Number [ MATNR_LOW_EXTERNAL ]\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"MATNR_LOW":"String","MATNR_LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"From material number [MATNR_LOW]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material Number Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"f7ca7e4f-657c-426a-aaa2-c93c4b15e56e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd87e2f23058299100a13db81369d3fc5\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d8b89cc7-bc10-4021-afc9-9efa2de9161a\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd87e2f23058299100a13db81369d3fc5.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material Number Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"f7ca7e4f-657c-426a-aaa2-c93c4b15e56e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd87e2f23058299100a13db81369d3fc5\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d8b89cc7-bc10-4021-afc9-9efa2de9161a\"}"}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Material Number Range Criteria">a07e2f2387829910fd73642d0ebb35e9</variable>
+        <variable display_value="">a07e2f2387829910fd73642d0ebb35e9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -691,7 +662,7 @@ full_pull﻿:  </value>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
         <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD1769f4d8609a1d10ee81f42136ce56af":{},"FlowDesigner:FD1769f4d8609a1d10ee81f42136ce56af.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"ee5a552a-9a15-4b07-855b-d9a4b5e0297a\",\"default_value\":\"\",\"label\":\"Material data\",\"mandatory\":\"false\",\"uiUniqueId\":\"f16a8d59-a2d5-4efd-83e6-cd5ffd03e14c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1769f4d8609a1d10ee81f42136ce56af\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"05c68db7-f5f8-4190-a42d-406149f28f39\",\"dynamic_output_hidden_for\":\"material_data\",\"hint\":null,\"uiType\":\"object\",\"dynamic\":\"true\",\"visible_in_ui\":\"false\",\"order\":\"6\",\"max_length\":\"4096000\"}"}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Material data">08f0bc9c875a1d10fd73642d0ebb35d7</variable>
+        <variable display_value="">08f0bc9c875a1d10fd73642d0ebb35d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -705,7 +676,7 @@ full_pull﻿:  </value>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-21 07:40:48</sys_updated_on>
         <value>{"children":[],"type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3fa32162-46d0-4c3f-8c5c-a3af5d842c6c"}}</value>
-        <variable display_value="Materials">8785fc54879a1d10fd73642d0ebb35f0</variable>
+        <variable display_value="">8785fc54879a1d10fd73642d0ebb35f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -719,7 +690,7 @@ full_pull﻿:  </value>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
         <value/>
-        <variable display_value="Connection Alias">107e2f2387829910fd73642d0ebb35c8</variable>
+        <variable display_value="">107e2f2387829910fd73642d0ebb35c8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -733,93 +704,8 @@ full_pull﻿:  </value>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
         <value>ZBAPI_GETMATERIALDATA</value>
-        <variable display_value="Select Bapi">e12f9bf38782d910fd73642d0ebb35b2</variable>
+        <variable display_value="">e12f9bf38782d910fd73642d0ebb35b2</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=872cd29347265110a4be65a5d36d433b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>additional_input</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
-        <sys_id>8b2cd29347265110a4be65a5d36d433d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value>IV_INITIAL_LOAD={{3eb23896-eb1b-465d-8238-3480569ec3d1.property_value}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conn_alias</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
-        <sys_id>c32cd29347265110a4be65a5d36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value>{{subflow.connection_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_material_data</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
-        <sys_id>872cd29347265110a4be65a5d36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>dynamic_hidden_input_output</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-21 07:40:48</sys_created_on>
-        <sys_id>da47eae747269110a4be65a5d36d434f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-21 07:40:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>MATNRSELECTION</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
-        <sys_id>c72cd29347265110a4be65a5d36d433d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>PLANTSELECTION</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
-        <sys_id>032cd29347265110a4be65a5d36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD947e2f239b8299104e41afa93e9549c3","$COCollectionField":[{"PLANT_LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}},"PLANT_HIGH":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD947e2f239b8299104e41afa93e9549c3":{"$COCollectionField":[{"item":{"PLANT_LOW":"String","PLANT_LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].PLANT_LOW\\\":\\\"{{9abc1f0d-25b6-443c-bd14-814548b8711b.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From plant [PLANT_LOW]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{3bee70f7-868e-4eab-abd1-d90e7872d42b.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection operator [OPTION]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{c31f4c40-85ed-4fc4-94ac-dfb9c94da400.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/exclusive [SIGN]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"PLANT_HIGH":"String","PLANT_HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].PLANT_HIGH\\\":\\\"{{c356d4bd-af7a-49a7-bc67-d14b1c33bcf0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To plant [PLANT_HIGH]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Plant Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"ff7d3150-c522-4cd5-a458-0b6a078499f8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD947e2f239b8299104e41afa93e9549c3\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f3bde0b3-054a-4e77-93a6-ee022f27c5c2\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD947e2f239b8299104e41afa93e9549c3.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Plant Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"ff7d3150-c522-4cd5-a458-0b6a078499f8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD947e2f239b8299104e41afa93e9549c3\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f3bde0b3-054a-4e77-93a6-ee022f27c5c2\"}"}},"serializationFormat":"JSON"}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>select_bapi</field>
-        <id>872cd29347265110a4be65a5d36d433b</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
-        <sys_id>4f2cd29347265110a4be65a5d36d433d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=872cd29347265110a4be65a5d36d433b^sys_idNOT IN0f2cd29347265110a4be65a5d36d433c"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -837,9 +723,8 @@ full_pull﻿:  </value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=872cd29347265110a4be65a5d36d433b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Segregate Material data">393cd67797a599106ef838a71153af57</action_type>
-        <action_type_parent display_value="Segregate Material data">402256bb976599106ef838a71153af4e</action_type_parent>
+        <action_type display_value="">393cd67797a599106ef838a71153af57</action_type>
+        <action_type_parent display_value="">402256bb976599106ef838a71153af4e</action_type_parent>
         <comment/>
         <compiled_snapshot>393cd67797a599106ef838a71153af57</compiled_snapshot>
         <display_text/>
@@ -869,52 +754,14 @@ full_pull﻿:  </value>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-21 07:40:49</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"name$":"FD901993fb6d42d91035773c92a5ee70fc","$COCollectionField":[""]},"complexObjectSchema":{"FlowDesigner:FD901993fb6d42d91035773c92a5ee70fc":{"$COCollectionField":[{"ET_MATERIAL":{"FDcf0953fbbb42d9102c8eb249159593f6":["Any"],"FDcf0953fbbb42d9102c8eb249159593f6.$field_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"66acb5b9-2d89-45e8-af0c-3f2875987f25\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Material\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"999178cd-63d1-40f1-ae43-3f9c822787d6\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"66acb5b9-2d89-45e8-af0c-3f2875987f25\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD901993fb6d42d91035773c92a5ee70fc\",\"child_label\":\"Material\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"999178cd-63d1-40f1-ae43-3f9c822787d6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD901993fb6d42d91035773c92a5ee70fc.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"66acb5b9-2d89-45e8-af0c-3f2875987f25\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD901993fb6d42d91035773c92a5ee70fc\",\"child_label\":\"Material\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"mapped\":\"{}\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"999178cd-63d1-40f1-ae43-3f9c822787d6\"}"}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Material">1019d3fb8742d910fd73642d0ebb3500</variable>
+        <variable display_value="">1019d3fb8742d910fd73642d0ebb3500</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a72cd29347265110a4be65a5d36d437d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ET_MATERIAL</field>
-        <id>a72cd29347265110a4be65a5d36d437d</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
-        <sys_id>232cd29347265110a4be65a5d36d437f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_393cd67797a599106ef838a71153af57</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>material_string</field>
-        <id>a72cd29347265110a4be65a5d36d437d</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
-        <sys_id>e32cd29347265110a4be65a5d36d437f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_393cd67797a599106ef838a71153af57</table>
-        <value>{{f68e038b-70b1-4ed1-9852-ea283b95adf2.material_data}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mat_obj</field>
-        <id>a72cd29347265110a4be65a5d36d437d</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
-        <sys_id>6f2cd29347265110a4be65a5d36d437e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
-        <table>var__m_sys_hub_action_input_393cd67797a599106ef838a71153af57</table>
-        <value>{{f68e038b-70b1-4ed1-9852-ea283b95adf2.material_data}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a72cd29347265110a4be65a5d36d437d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a72cd29347265110a4be65a5d36d437d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
-        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <action_type display_value="">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>Get value of high field</comment>
         <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
         <display_text/>
@@ -932,19 +779,6 @@ full_pull﻿:  </value>
         <ui_id>c356d4bd-af7a-49a7-bc67-d14b1c33bcf0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e22cd29347265110a4be65a5d36d4300"/>
-    <sys_element_mapping action="delete_multiple" query="id=e22cd29347265110a4be65a5d36d4300"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>properties</field>
-        <id>e22cd29347265110a4be65a5d36d4300</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
-        <sys_id>e62cd29347265110a4be65a5d36d4301</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
-        <value>{{subflow.service_record.integration_service.properties}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e22cd29347265110a4be65a5d36d4300^sys_idNOT INa22cd29347265110a4be65a5d36d4301"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -962,9 +796,8 @@ full_pull﻿:  </value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e22cd29347265110a4be65a5d36d4300"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
-        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <action_type display_value="">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>Get value of low field</comment>
         <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
         <display_text/>
@@ -982,19 +815,6 @@ full_pull﻿:  </value>
         <ui_id>9abc1f0d-25b6-443c-bd14-814548b8711b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee2c929347265110a4be65a5d36d43f6"/>
-    <sys_element_mapping action="delete_multiple" query="id=ee2c929347265110a4be65a5d36d43f6"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>properties</field>
-        <id>ee2c929347265110a4be65a5d36d43f6</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
-        <sys_id>e62c929347265110a4be65a5d36d43f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
-        <value>{{subflow.service_record.integration_service.properties}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ee2c929347265110a4be65a5d36d43f6^sys_idNOT IN2a2c929347265110a4be65a5d36d43f8,2e2c929347265110a4be65a5d36d43f8"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -1025,9 +845,8 @@ full_pull﻿:  </value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee2c929347265110a4be65a5d36d43f6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
-        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <action_type display_value="">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>Get value of option field</comment>
         <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
         <display_text/>
@@ -1045,19 +864,6 @@ full_pull﻿:  </value>
         <ui_id>3bee70f7-868e-4eab-abd1-d90e7872d42b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee2cd29347265110a4be65a5d36d430f"/>
-    <sys_element_mapping action="delete_multiple" query="id=ee2cd29347265110a4be65a5d36d430f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>properties</field>
-        <id>ee2cd29347265110a4be65a5d36d430f</id>
-        <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
-        <sys_id>e22cd29347265110a4be65a5d36d4311</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
-        <value>{{subflow.service_record.integration_service.properties}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ee2cd29347265110a4be65a5d36d430f^sys_idNOT INae2cd29347265110a4be65a5d36d4310"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1592,7 +1398,7 @@ full_pull﻿:  </value>
         <sys_created_on>2022-10-20 12:13:43</sys_created_on>
         <sys_id>9a2c929347265110a4be65a5d36d43bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service record</sys_name>
         <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
@@ -1615,7 +1421,7 @@ full_pull﻿:  </value>
         <sys_created_on>2022-10-20 12:13:43</sys_created_on>
         <sys_id>d22c929347265110a4be65a5d36d43c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection name</sys_name>
         <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
@@ -1640,7 +1446,7 @@ full_pull﻿:  </value>
         <sys_created_on>2022-10-20 12:13:43</sys_created_on>
         <sys_id>962c929347265110a4be65a5d36d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
@@ -1663,7 +1469,7 @@ full_pull﻿:  </value>
         <sys_created_on>2022-10-20 12:13:43</sys_created_on>
         <sys_id>9e2c929347265110a4be65a5d36d43cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
