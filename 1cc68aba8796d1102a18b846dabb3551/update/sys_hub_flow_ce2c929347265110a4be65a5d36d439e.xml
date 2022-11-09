@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021_05-23-2022_1900.zip</compiler_build>
+        <copied_from>17cc13338782d910fd73642d0ebb35df</copied_from>
+        <copied_from_name>Material Master Data pull new</copied_from_name>
+        <description/>
+        <internal_name>material_master_data_pull</internal_name>
+        <label_cache>[{"name":"flow_variable.total_count","label":"Flow Variables➛Total Count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f63ff75b-7443-47f4-964d-619dbdf17763"}},{"name":"9abc1f0d-25b6-443c-bd14-814548b8711b.__dont_treat_as_error__","label":"1 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"902adbbb-a31a-4abc-9e69-e43a07c6ee83"}},{"name":"9abc1f0d-25b6-443c-bd14-814548b8711b.__action_status__","label":"1 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2b5359c57aee1190a29dfb8212961eb5","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"4c277d30-bc39-46e8-9f43-f13ccf082c79"}},{"name":"9abc1f0d-25b6-443c-bd14-814548b8711b.property_value","label":"1 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"c356d4bd-af7a-49a7-bc67-d14b1c33bcf0.__dont_treat_as_error__","label":"2 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"902adbbb-a31a-4abc-9e69-e43a07c6ee83"}},{"name":"c356d4bd-af7a-49a7-bc67-d14b1c33bcf0.__action_status__","label":"2 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2b5359c57aee1190a29dfb8212961eb5","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"4c277d30-bc39-46e8-9f43-f13ccf082c79"}},{"name":"c356d4bd-af7a-49a7-bc67-d14b1c33bcf0.property_value","label":"2 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"c31f4c40-85ed-4fc4-94ac-dfb9c94da400.__dont_treat_as_error__","label":"3 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"902adbbb-a31a-4abc-9e69-e43a07c6ee83"}},{"name":"c31f4c40-85ed-4fc4-94ac-dfb9c94da400.__action_status__","label":"3 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2b5359c57aee1190a29dfb8212961eb5","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"4c277d30-bc39-46e8-9f43-f13ccf082c79"}},{"name":"c31f4c40-85ed-4fc4-94ac-dfb9c94da400.property_value","label":"3 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"3bee70f7-868e-4eab-abd1-d90e7872d42b.__dont_treat_as_error__","label":"4 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"902adbbb-a31a-4abc-9e69-e43a07c6ee83"}},{"name":"3bee70f7-868e-4eab-abd1-d90e7872d42b.__action_status__","label":"4 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2b5359c57aee1190a29dfb8212961eb5","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"4c277d30-bc39-46e8-9f43-f13ccf082c79"}},{"name":"3bee70f7-868e-4eab-abd1-d90e7872d42b.property_value","label":"4 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"3eb23896-eb1b-465d-8238-3480569ec3d1.__dont_treat_as_error__","label":"5 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"902adbbb-a31a-4abc-9e69-e43a07c6ee83"}},{"name":"3eb23896-eb1b-465d-8238-3480569ec3d1.__action_status__","label":"5 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2b5359c57aee1190a29dfb8212961eb5","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"4c277d30-bc39-46e8-9f43-f13ccf082c79"}},{"name":"3eb23896-eb1b-465d-8238-3480569ec3d1.property_value","label":"5 - Get Source Property Value➛Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"3595a4b8-a3d9-4e98-835b-8203e3ab413a.material","label":"8 - Segregate Material data➛Material","reference_display":"Material","type":"array.object","base_type":"array.object","attributes":{"sourceId":"bca804ab-5e8f-4c35-9cdd-dfbe4828fd24","child_name":"ET_MATERIAL","uiUniqueId":"a865d3f7-17e7-4f1a-938b-83f6ffcfa72d","uiTypeLabel":"Array.Object","co_type_name":"FDf04c1a77d9a59910f2c46b742e853898","child_label":"Tables","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"3c2376dd-e619-4d86-bb51-557519551623","uiType":"array.object","child_type":"object","child_uiUniqueId":"07e35fca-b368-4b45-8f80-b98bf82c43cc"}},{"name":"3595a4b8-a3d9-4e98-835b-8203e3ab413a.__dont_treat_as_error__","label":"8 - Segregate Material data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b1c97178-2e97-441b-8d58-4f0ded0d9e74"}},{"name":"3595a4b8-a3d9-4e98-835b-8203e3ab413a.__action_status__","label":"8 - Segregate Material data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d0499967-563c-40d3-986a-4db924fec5dc"}},{"name":"627ddf16-873e-4f3c-b586-dcb6bad96087.item.MARA","label":"13➛Material Structure [ ET_MATERIAL ]_child0➛MARA","type":"array.object","base_type":"array.object","attributes":{"child_type":"object"}},{"name":"5fcac25c-586b-465b-abaf-bd508528fc62.__dont_treat_as_error__","label":"7 - Look up Materials By Plant New➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"9a360d2b-a1cd-4349-b538-5bf25cdd664b"}},{"name":"5fcac25c-586b-465b-abaf-bd508528fc62.__action_status__","label":"7 - Look up Materials By Plant New➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"65ea5513-ebc6-4ee2-8255-625145242565"}},{"name":"5fcac25c-586b-465b-abaf-bd508528fc62.err","label":"7 - Look up Materials By Plant New➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a3aa376-33a8-4534-84d2-d3213b6f366b"}},{"name":"5fcac25c-586b-465b-abaf-bd508528fc62.status","label":"7 - Look up Materials By Plant New➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ae393c40-bf30-4a04-aa45-87b3deb79af3"}},{"name":"5fcac25c-586b-465b-abaf-bd508528fc62.output","label":"7 - Look up Materials By Plant New➛Material Data","reference_display":"Material Data","type":"dynamic_object","base_type":"dynamic_object","attributes":{"uiType":"json","uiTypeLabel":"JSON","dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5c5b62c2-6ec2-4dbe-bb9a-c58ad5f01d1a"}},{"name":"8eba4920-1e27-4f75-a968-5ac8a56bc03a.__dont_treat_as_error__","label":"7 - Look up Materials By Plant➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"8eba4920-1e27-4f75-a968-5ac8a56bc03a.__action_status__","label":"7 - Look up Materials By Plant➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"8eba4920-1e27-4f75-a968-5ac8a56bc03a.err","label":"7 - Look up Materials By Plant➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"6a3aa376-33a8-4534-84d2-d3213b6f366b"}},{"name":"8eba4920-1e27-4f75-a968-5ac8a56bc03a.status","label":"7 - Look up Materials By Plant➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"choice","uiUniqueId":"ae393c40-bf30-4a04-aa45-87b3deb79af3"}},{"name":"8eba4920-1e27-4f75-a968-5ac8a56bc03a.output","label":"7 - Look up Materials By Plant➛Material Data","reference_display":"Material Data","type":"object","base_type":"object","attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","dynamic":"true","uiUniqueId":"5c5b62c2-6ec2-4dbe-bb9a-c58ad5f01d1a"}},{"name":"3d70edee-2ba5-4b1f-8920-bb51e7b7a604.__dont_treat_as_error__","label":"5 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d70edee-2ba5-4b1f-8920-bb51e7b7a604.__action_status__","label":"5 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d70edee-2ba5-4b1f-8920-bb51e7b7a604.property_value","label":"5 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"3d27b956-1e40-4b16-be2d-98cdb77bb2b7.__dont_treat_as_error__","label":"4 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d27b956-1e40-4b16-be2d-98cdb77bb2b7.__action_status__","label":"4 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d27b956-1e40-4b16-be2d-98cdb77bb2b7.property_value","label":"4 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"af8287ac-f0e6-4f23-b0b3-fc292b0646ba.__dont_treat_as_error__","label":"3 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af8287ac-f0e6-4f23-b0b3-fc292b0646ba.__action_status__","label":"3 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af8287ac-f0e6-4f23-b0b3-fc292b0646ba.property_value","label":"3 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"055340a2-2d36-4d43-966a-b3318b766d5e.__dont_treat_as_error__","label":"2 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"055340a2-2d36-4d43-966a-b3318b766d5e.__action_status__","label":"2 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"055340a2-2d36-4d43-966a-b3318b766d5e.property_value","label":"2 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"subflow.service_job_tracker.hr_integration_service.hr_source.properties","label":"Input➛Service Job Tracker➛Integration service➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"subflow.service_inputs.properties","label":"Input➛Service Inputs➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"bc945748-4c4f-404f-8024-dc476e40bd69.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc945748-4c4f-404f-8024-dc476e40bd69.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.service_inputs.source.properties","label":"Input➛Service Inputs➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"f9246e2e-5da9-4895-9fee-70f5789223ee.__dont_treat_as_error__","label":"1 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9246e2e-5da9-4895-9fee-70f5789223ee.__action_status__","label":"1 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9246e2e-5da9-4895-9fee-70f5789223ee.property_value","label":"1 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"7e707b10-e48d-4e3e-9a0e-6a9acf0b11fe.output","label":"1 - Look up Materials By Plant➛Material Data","reference_display":"Material Data","type":"object","base_type":"object","attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","dynamic":"true","uiUniqueId":"5c5b62c2-6ec2-4dbe-bb9a-c58ad5f01d1a"}},{"name":"7e707b10-e48d-4e3e-9a0e-6a9acf0b11fe.status","label":"1 - Look up Materials By Plant➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"choice","uiUniqueId":"ae393c40-bf30-4a04-aa45-87b3deb79af3"}},{"name":"7e707b10-e48d-4e3e-9a0e-6a9acf0b11fe.err","label":"1 - Look up Materials By Plant➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"6a3aa376-33a8-4534-84d2-d3213b6f366b"}},{"name":"7e707b10-e48d-4e3e-9a0e-6a9acf0b11fe.__action_status__","label":"1 - Look up Materials By Plant➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7e707b10-e48d-4e3e-9a0e-6a9acf0b11fe.__dont_treat_as_error__","label":"1 - Look up Materials By Plant➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f774cb8e-115e-45cb-849e-bc27ae12939f.__action_status__","label":"8 - Segregate Material data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d0499967-563c-40d3-986a-4db924fec5dc"}},{"name":"f774cb8e-115e-45cb-849e-bc27ae12939f.__dont_treat_as_error__","label":"8 - Segregate Material data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b1c97178-2e97-441b-8d58-4f0ded0d9e74"}},{"name":"f774cb8e-115e-45cb-849e-bc27ae12939f.material","label":"8 - Segregate Material data➛Material","reference_display":"Material","type":"array.object","base_type":"array.object","attributes":{"sourceId":"bca804ab-5e8f-4c35-9cdd-dfbe4828fd24","child_name":"ET_MATERIAL","uiUniqueId":"a865d3f7-17e7-4f1a-938b-83f6ffcfa72d","uiTypeLabel":"Array.Object","co_type_name":"FDf04c1a77d9a59910f2c46b742e853898","child_label":"Tables","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"3c2376dd-e619-4d86-bb51-557519551623","uiType":"array.object","child_type":"object","child_uiUniqueId":"07e35fca-b368-4b45-8f80-b98bf82c43cc"}},{"name":"56135c93-ea82-46d3-be11-da5c5544c5d4.__action_status__","label":"8 - Lookup Materials by Plant➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"898070ed-7066-46ff-9f17-0a36dd71a9d6"}},{"name":"56135c93-ea82-46d3-be11-da5c5544c5d4.__dont_treat_as_error__","label":"8 - Lookup Materials by Plant➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"08938dc1-2a3c-456e-9f44-8d4a01f2e1a8"}},{"name":"56135c93-ea82-46d3-be11-da5c5544c5d4.material","label":"8 - Lookup Materials by Plant➛Materials","reference_display":"Materials","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"889c5cff-466b-4b1f-bcf6-25bcbda633d9"}},{"name":"56135c93-ea82-46d3-be11-da5c5544c5d4.status","label":"8 - Lookup Materials by Plant➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f873cb0b-5f15-43a3-bb88-9f7feb3eb6df"}},{"name":"627ddf16-873e-4f3c-b586-dcb6bad96087.item.MARC","label":"13➛Tables➛Marc","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"627ddf16-873e-4f3c-b586-dcb6bad96087.item","label":"13 - For Each➛Tables","reference_display":"Tables","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"1d2098b7-c742-45af-9763-c86118032cb1.item","label":"14 - For Each➛Marc Data","reference_display":"Marc Data","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"662058a9-fb6a-4230-91b8-472eb952f2ce.record","label":"15 - Create or Update Record➛Material master staging table Record","reference":"sn_sap_ecc_rfc_spo_material_master_staging_table","reference_display":"Material master staging table","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"662058a9-fb6a-4230-91b8-472eb952f2ce.table_name","label":"15 - Create or Update Record➛Material master staging table Table","reference":"sn_sap_ecc_rfc_spo_material_master_staging_table","reference_display":"Material master staging table","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"662058a9-fb6a-4230-91b8-472eb952f2ce.status","label":"15 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"662058a9-fb6a-4230-91b8-472eb952f2ce.error_message","label":"15 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"662058a9-fb6a-4230-91b8-472eb952f2ce.__action_status__","label":"15 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"662058a9-fb6a-4230-91b8-472eb952f2ce.__dont_treat_as_error__","label":"15 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d2098b7-c742-45af-9763-c86118032cb1.item.MANDT","label":"14➛Marc Data➛Client","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1d2098b7-c742-45af-9763-c86118032cb1.item.MATNR","label":"14➛Marc Data➛Material No.","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1d2098b7-c742-45af-9763-c86118032cb1.item.WERKS","label":"14➛Marc Data➛Plant","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.low","label":"Input➛LOW","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c4370aa0-0bf2-418b-9880-717b297056f8"}},{"name":"subflow.high","label":"Input➛HIGH","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6a1c43d3-3bdb-466c-81a2-65d0323ba2e1"}},{"name":"subflow.sign","label":"Input➛SIGN","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9b6c41da-2eb6-4372-94a1-45a4fb6bc63f"}},{"name":"subflow.option","label":"Input➛OPTION","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"94ef7019-6990-4fd0-91a7-f35a8d4b3245"}},{"name":"subflow.service_inputs.hr_integrations_job_tracker.source.properties","label":"Input➛Service Inputs➛HR integrations job tracker➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"subflow.service_inputs.hr_integration_service.hr_source.properties","label":"Input➛Service Inputs➛Integration service➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"subflow.service_inputs.hr_source.properties","label":"Input➛Service Inputs➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"subflow.service_inputs.hr_integration_service.name","label":"Input➛Service Inputs➛Integration service➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sn_hr_integr_fw_service","column_name":"name"},{"name":"subflow.service_job_tracker.hr_integrations_job_tracker.source.properties","label":"Input➛Service Job Tracker➛HR integrations job tracker➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"subflow.service_record.hr_integrations_job_tracker.source.properties","label":"Input➛Service record1➛HR integrations job tracker➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_hr_integr_fw_source","column_name":"properties"},{"name":"subflow.service_record.u_integration_service.u_source.u_properties","label":"Input➛Service record➛Integration service➛Source➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_sap_ecc_rfc_spo_integration_source","column_name":"u_properties"},{"name":"5fcac25c-586b-465b-abaf-bd508528fc62.output.ET_MATERIAL","label":"7➛Material Data➛Material Structure [ ET_MATERIAL ]","type":"array.object","base_type":"array.object","attributes":{"child_type":"object"}},{"name":"e2a01e96-4006-40b7-8c4b-7b04d66a321a.__action_status__","label":"10 - Segregate Material data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d0499967-563c-40d3-986a-4db924fec5dc"}},{"name":"e2a01e96-4006-40b7-8c4b-7b04d66a321a.__dont_treat_as_error__","label":"10 - Segregate Material data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b1c97178-2e97-441b-8d58-4f0ded0d9e74"}},{"name":"e2a01e96-4006-40b7-8c4b-7b04d66a321a.material","label":"10 - Segregate Material data➛Material","reference_display":"Material","type":"array.object","base_type":"array.object","attributes":{"sourceId":"bca804ab-5e8f-4c35-9cdd-dfbe4828fd24","child_name":"ET_MATERIAL","uiUniqueId":"a865d3f7-17e7-4f1a-938b-83f6ffcfa72d","uiTypeLabel":"Array.Object","co_type_name":"FDf04c1a77d9a59910f2c46b742e853898","child_label":"Tables","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"3c2376dd-e619-4d86-bb51-557519551623","uiType":"array.object","child_type":"object","child_uiUniqueId":"07e35fca-b368-4b45-8f80-b98bf82c43cc"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.output","label":"8 - Look up Materials By Plant New➛Materials","reference_display":"Materials","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3fa32162-46d0-4c3f-8c5c-a3af5d842c6c"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.status","label":"8 - Look up Materials By Plant New➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ae393c40-bf30-4a04-aa45-87b3deb79af3"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.err","label":"8 - Look up Materials By Plant New➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a3aa376-33a8-4534-84d2-d3213b6f366b"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.__action_status__","label":"8 - Look up Materials By Plant New➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"65ea5513-ebc6-4ee2-8255-625145242565"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.__dont_treat_as_error__","label":"8 - Look up Materials By Plant New➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"9a360d2b-a1cd-4349-b538-5bf25cdd664b"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.output.ET_MATERIAL","label":"8➛Material Data➛Material Structure [ ET_MATERIAL ]","type":"array.object","base_type":"array.object","attributes":{"child_type":"object"}},{"name":"d0c55bf7-ebf3-461c-8bbd-a9638e943440.__action_status__","label":"9 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d0c55bf7-ebf3-461c-8bbd-a9638e943440.__dont_treat_as_error__","label":"9 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f68e038b-70b1-4ed1-9852-ea283b95adf2.material_data","label":"8 - Look up Materials By Plant New➛Material data","reference_display":"Material data","type":"object","base_type":"object","attributes":{"sourceId":"ee5a552a-9a15-4b07-855b-d9a4b5e0297a","uiTypeLabel":"Object","co_type_name":"FDc87938d8f79a1d104cb7017d588c9735","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"05c68db7-f5f8-4190-a42d-406149f28f39","uiType":"object","dynamic":"true","uiUniqueId":"f16a8d59-a2d5-4efd-83e6-cd5ffd03e14c"}},{"name":"subflow.service_record.u_integration_service.u_properties","label":"Input➛Service record➛Integration service➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_sap_ecc_rfc_spo_integration_service","column_name":"u_properties"},{"name":"subflow.service_record.integration_service.properties","label":"Input➛Service record➛Integration service➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"x_snc_com_data_int_integrations_service","column_name":"properties"},{"name":"flow_variable.row_skipped","label":"Flow Variables➛Row Skipped","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"42b5691d-a614-4ace-bda5-6bd9a7d7beee"}},{"name":"e2a01e96-4006-40b7-8c4b-7b04d66a321a.total_rows","label":"10 - Segregate Material data➛Total Rows","reference_display":"Total Rows","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e7fd9251-5fff-4f7b-9208-313101c1930d"}},{"name":"subflow.connection_name","label":"Input➛Connection name","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5ee38fe-7f0a-4530-836f-d762b08187a5"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Material Master Data pull</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce2c929347265110a4be65a5d36d439e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Material Master Data pull</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name>sys_hub_flow_ce2c929347265110a4be65a5d36d439e</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:50</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ce2c929347265110a4be65a5d36d439e^sys_idNOT IN822c929347265110a4be65a5d36d43a2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ce2c929347265110a4be65a5d36d439e</id>
+        <name>Material Master Data pull</name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:42</sys_created_on>
+        <sys_id>822c929347265110a4be65a5d36d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=822c929347265110a4be65a5d36d43a2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ce2c929347265110a4be65a5d36d439e^sys_idNOT IN162c929347265110a4be65a5d36d43b6,5a2c929347265110a4be65a5d36d43bd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e309190a-74d8-43ad-95ed-dc21b1e39b64</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_com_data_int_integration_service_job_tracker</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>service_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Service record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</model>
+        <model_id>ce2c929347265110a4be65a5d36d439e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ce2c929347265110a4be65a5d36d439e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_com_data_int_integration_service_job_tracker">x_snc_com_data_int_integration_service_job_tracker</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>162c929347265110a4be65a5d36d43b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c5ee38fe-7f0a-4530-836f-d762b08187a5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_alias</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Connection name</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</model>
+        <model_id>ce2c929347265110a4be65a5d36d439e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ce2c929347265110a4be65a5d36d439e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>5a2c929347265110a4be65a5d36d43bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=ce2c929347265110a4be65a5d36d439e^sys_idNOT IN122c929347265110a4be65a5d36d43c5,5e2c929347265110a4be65a5d36d43ce"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=4481286c-c48c-4328-9682-fb9368e2de03</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Success</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</model>
+        <model_id>ce2c929347265110a4be65a5d36d439e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>122c929347265110a4be65a5d36d43c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ea7105a7-ff3c-481c-a229-3feb19b6aa45</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</model>
+        <model_id>ce2c929347265110a4be65a5d36d439e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>5e2c929347265110a4be65a5d36d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ce2c929347265110a4be65a5d36d439e^sys_idNOT IN003cd29347265110a4be65a5d36d4385,0f2cd29347265110a4be65a5d36d431d,232cd29347265110a4be65a5d36d4343,622cd29347265110a4be65a5d36d4308,6e2cd29347265110a4be65a5d36d4317,872cd29347265110a4be65a5d36d433b,a72cd29347265110a4be65a5d36d437d,e22cd29347265110a4be65a5d36d4300,ee2c929347265110a4be65a5d36d43f6,ee2cd29347265110a4be65a5d36d430f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>15</order>
+        <parent_ui_id>1d2098b7-c742-45af-9763-c86118032cb1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:50</sys_created_on>
+        <sys_id>003cd29347265110a4be65a5d36d4385</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:50</sys_updated_on>
+        <ui_id>662058a9-fb6a-4230-91b8-472eb952f2ce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=003cd29347265110a4be65a5d36d4385"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>003cd29347265110a4be65a5d36d4385</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:50</sys_created_on>
+        <sys_id>4c3cd29347265110a4be65a5d36d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:50</sys_updated_on>
+        <value>sn_sap_ecc_rfc_spo_material_master_staging_table</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=003cd29347265110a4be65a5d36d4385"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>003cd29347265110a4be65a5d36d4385</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:50</sys_created_on>
+        <sys_id>083cd29347265110a4be65a5d36d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>u_client={{1d2098b7-c742-45af-9763-c86118032cb1.item.MANDT}}^u_plant={{1d2098b7-c742-45af-9763-c86118032cb1.item.WERKS}}^u_material_number={{1d2098b7-c742-45af-9763-c86118032cb1.item.MATNR}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>003cd29347265110a4be65a5d36d4385</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:50</sys_created_on>
+        <sys_id>c83cd29347265110a4be65a5d36d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=003cd29347265110a4be65a5d36d4385^sys_idNOT IN8c3cd29347265110a4be65a5d36d4385"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>fields</input_name>
+        <instance>003cd29347265110a4be65a5d36d4385</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"sys_import_set":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\ngs.info(\"material master set : \"+fd_data.subflow_inputs.service_record.sets);\nreturn fd_data.subflow_inputs.service_record.sets;","savedValue":""}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:50</sys_created_on>
+        <sys_id>8c3cd29347265110a4be65a5d36d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:50</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=003cd29347265110a4be65a5d36d4385"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>0f2cd29347265110a4be65a5d36d431d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <ui_id>bc945748-4c4f-404f-8024-dc476e40bd69</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f2cd29347265110a4be65a5d36d431d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f2cd29347265110a4be65a5d36d431d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>c32cd29347265110a4be65a5d36d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <value>Material master subflow : -- servicen name: ---
+low : ﻿
+high:   
+sign:   
+option:   
+full_pull﻿:  </value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=0f2cd29347265110a4be65a5d36d431d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f2cd29347265110a4be65a5d36d431d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f2cd29347265110a4be65a5d36d431d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>9</order>
+        <parent_ui_id>056b8517-1951-471d-b5f9-c894bf685592</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>232cd29347265110a4be65a5d36d4343</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <ui_id>d0c55bf7-ebf3-461c-8bbd-a9638e943440</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=232cd29347265110a4be65a5d36d4343"/>
+    <sys_element_mapping action="delete_multiple" query="id=232cd29347265110a4be65a5d36d4343"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>232cd29347265110a4be65a5d36d4343</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>ef2cd29347265110a4be65a5d36d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Material data : : ﻿{{f68e038b-70b1-4ed1-9852-ea283b95adf2.output.ET_MATERIAL}}{{f68e038b-70b1-4ed1-9852-ea283b95adf2.output}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=232cd29347265110a4be65a5d36d4343"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=232cd29347265110a4be65a5d36d4343"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <comment>Get value of sign field</comment>
+        <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>622cd29347265110a4be65a5d36d4308</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>c31f4c40-85ed-4fc4-94ac-dfb9c94da400</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=622cd29347265110a4be65a5d36d4308"/>
+    <sys_element_mapping action="delete_multiple" query="id=622cd29347265110a4be65a5d36d4308"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>properties</field>
+        <id>622cd29347265110a4be65a5d36d4308</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>662cd29347265110a4be65a5d36d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
+        <value>{{subflow.service_record.integration_service.properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=622cd29347265110a4be65a5d36d4308^sys_idNOT IN222cd29347265110a4be65a5d36d4309"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>property_name</input_name>
+        <instance>622cd29347265110a4be65a5d36d4308</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"property_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \u0027sign\u0027;"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>222cd29347265110a4be65a5d36d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=622cd29347265110a4be65a5d36d4308"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <comment>Get value of full_pull field</comment>
+        <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>6e2cd29347265110a4be65a5d36d4317</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>3eb23896-eb1b-465d-8238-3480569ec3d1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e2cd29347265110a4be65a5d36d4317"/>
+    <sys_element_mapping action="delete_multiple" query="id=6e2cd29347265110a4be65a5d36d4317"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>properties</field>
+        <id>6e2cd29347265110a4be65a5d36d4317</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>622cd29347265110a4be65a5d36d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
+        <value>{{subflow.service_record.integration_service.properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e2cd29347265110a4be65a5d36d4317^sys_idNOT IN2e2cd29347265110a4be65a5d36d4318"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>property_name</input_name>
+        <instance>6e2cd29347265110a4be65a5d36d4317</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"property_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \u0027full_pull\u0027;"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>2e2cd29347265110a4be65a5d36d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e2cd29347265110a4be65a5d36d4317"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look up Materials By Plant New">c47e2f2387829910fd73642d0ebb35bf</action_type>
+        <action_type_parent display_value="Look up Materials By Plant New">a760c6a287c65510fd73642d0ebb3590</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c47e2f2387829910fd73642d0ebb35bf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>8</order>
+        <parent_ui_id>056b8517-1951-471d-b5f9-c894bf685592</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>872cd29347265110a4be65a5d36d433b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <ui_id>f68e038b-70b1-4ed1-9852-ea283b95adf2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=872cd29347265110a4be65a5d36d433b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>872cd29347265110a4be65a5d36d433b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>0b2cd29347265110a4be65a5d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FDd87e2f23058299100a13db81369d3fc5","$COCollectionField":[{"MATNR_HIGH_GUID":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH_LONG":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH_EXTERNAL":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_HIGH_VERSION":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_GUID":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_LONG":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_VERSION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW_EXTERNAL":{"$cv":{"$c":"java.lang.String","$v":""}},"MATNR_LOW":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FDd87e2f23058299100a13db81369d3fc5":{"$COCollectionField":[{"item":{"MATNR_HIGH_GUID":"String","MATNR_HIGH_GUID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"GUID (External) [ MATNR_HIGH_GUID ]\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"MATNR_HIGH":"String","MATNR_HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"To material number [MATNR_HIGH]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"MATNR_HIGH_LONG":"String","MATNR_HIGH_LONG.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material [ MATNR_HIGH_LONG ]\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"MATNR_HIGH_EXTERNAL":"String","MATNR_HIGH_EXTERNAL.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material Number [ MATNR_HIGH_EXTERNAL ]\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"MATNR_HIGH_VERSION":"String","MATNR_HIGH_VERSION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version Number [ MATNR_HIGH_VERSION ]\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Selection operator [OPTION]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"MATNR_LOW_GUID":"String","MATNR_LOW_GUID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"GUID (External) [ MATNR_LOW_GUID ]\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"MATNR_LOW_LONG":"String","MATNR_LOW_LONG.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material [ MATNR_LOW_LONG ]\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"MATNR_LOW_VERSION":"String","MATNR_LOW_VERSION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version Number [ MATNR_LOW_VERSION ]\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Inclusive/exclusive [SIGN]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"MATNR_LOW_EXTERNAL":"String","MATNR_LOW_EXTERNAL.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material Number [ MATNR_LOW_EXTERNAL ]\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"MATNR_LOW":"String","MATNR_LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"From material number [MATNR_LOW]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material Number Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"f7ca7e4f-657c-426a-aaa2-c93c4b15e56e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd87e2f23058299100a13db81369d3fc5\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d8b89cc7-bc10-4021-afc9-9efa2de9161a\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd87e2f23058299100a13db81369d3fc5.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material Number Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"f7ca7e4f-657c-426a-aaa2-c93c4b15e56e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd87e2f23058299100a13db81369d3fc5\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d8b89cc7-bc10-4021-afc9-9efa2de9161a\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Material Number Range Criteria">a07e2f2387829910fd73642d0ebb35e9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>872cd29347265110a4be65a5d36d433b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>432cd29347265110a4be65a5d36d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD1769f4d8609a1d10ee81f42136ce56af":{},"FlowDesigner:FD1769f4d8609a1d10ee81f42136ce56af.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"ee5a552a-9a15-4b07-855b-d9a4b5e0297a\",\"default_value\":\"\",\"label\":\"Material data\",\"mandatory\":\"false\",\"uiUniqueId\":\"f16a8d59-a2d5-4efd-83e6-cd5ffd03e14c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1769f4d8609a1d10ee81f42136ce56af\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"05c68db7-f5f8-4190-a42d-406149f28f39\",\"dynamic_output_hidden_for\":\"material_data\",\"hint\":null,\"uiType\":\"object\",\"dynamic\":\"true\",\"visible_in_ui\":\"false\",\"order\":\"6\",\"max_length\":\"4096000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Material data">08f0bc9c875a1d10fd73642d0ebb35d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>872cd29347265110a4be65a5d36d433b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>8f2cd29347265110a4be65a5d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Alias">107e2f2387829910fd73642d0ebb35c8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>872cd29347265110a4be65a5d36d433b</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>cb2cd29347265110a4be65a5d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <value>ZBAPI_GETMATERIALDATA</value>
+        <variable display_value="Select Bapi">e12f9bf38782d910fd73642d0ebb35b2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=872cd29347265110a4be65a5d36d433b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>additional_input</field>
+        <id>872cd29347265110a4be65a5d36d433b</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>8b2cd29347265110a4be65a5d36d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
+        <value>IV_INITIAL_LOAD={{3eb23896-eb1b-465d-8238-3480569ec3d1.property_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conn_alias</field>
+        <id>872cd29347265110a4be65a5d36d433b</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>c32cd29347265110a4be65a5d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
+        <value>{{subflow.connection_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dynamic_hidden_input_material_data</field>
+        <id>872cd29347265110a4be65a5d36d433b</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>872cd29347265110a4be65a5d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>MATNRSELECTION</field>
+        <id>872cd29347265110a4be65a5d36d433b</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>c72cd29347265110a4be65a5d36d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>PLANTSELECTION</field>
+        <id>872cd29347265110a4be65a5d36d433b</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>032cd29347265110a4be65a5d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
+        <value>{"version":"1.0","complexObject":{"name$":"FD947e2f239b8299104e41afa93e9549c3","$COCollectionField":[{"PLANT_LOW":{"$cv":{"$c":"java.lang.String","$v":""}},"OPTION":{"$cv":{"$c":"java.lang.String","$v":""}},"SIGN":{"$cv":{"$c":"java.lang.String","$v":""}},"PLANT_HIGH":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD947e2f239b8299104e41afa93e9549c3":{"$COCollectionField":[{"item":{"PLANT_LOW":"String","PLANT_LOW.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].PLANT_LOW\\\":\\\"{{9abc1f0d-25b6-443c-bd14-814548b8711b.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"From plant [PLANT_LOW]\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"OPTION":"String","OPTION.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].OPTION\\\":\\\"{{3bee70f7-868e-4eab-abd1-d90e7872d42b.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Selection operator [OPTION]\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"SIGN":"String","SIGN.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].SIGN\\\":\\\"{{c31f4c40-85ed-4fc4-94ac-dfb9c94da400.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"Inclusive/exclusive [SIGN]\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"PLANT_HIGH":"String","PLANT_HIGH.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].PLANT_HIGH\\\":\\\"{{c356d4bd-af7a-49a7-bc67-d14b1c33bcf0.property_value}}\\\"}\",\"default_value\":\"\",\"label\":\"To plant [PLANT_HIGH]\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Plant Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"ff7d3150-c522-4cd5-a458-0b6a078499f8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD947e2f239b8299104e41afa93e9549c3\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f3bde0b3-054a-4e77-93a6-ee022f27c5c2\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD947e2f239b8299104e41afa93e9549c3.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Plant Range Criteria\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"ff7d3150-c522-4cd5-a458-0b6a078499f8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD947e2f239b8299104e41afa93e9549c3\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f3bde0b3-054a-4e77-93a6-ee022f27c5c2\"}"}},"serializationFormat":"JSON"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>select_bapi</field>
+        <id>872cd29347265110a4be65a5d36d433b</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>4f2cd29347265110a4be65a5d36d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c47e2f2387829910fd73642d0ebb35bf</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=872cd29347265110a4be65a5d36d433b^sys_idNOT IN0f2cd29347265110a4be65a5d36d433c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>additional_input</input_name>
+        <instance>872cd29347265110a4be65a5d36d433b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"MAXROWS":{"scriptActive":true,"savedValue":""}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:46</sys_created_on>
+        <sys_id>0f2cd29347265110a4be65a5d36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:46</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=872cd29347265110a4be65a5d36d433b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Segregate Material data">393cd67797a599106ef838a71153af57</action_type>
+        <action_type_parent display_value="Segregate Material data">402256bb976599106ef838a71153af4e</action_type_parent>
+        <comment/>
+        <compiled_snapshot>393cd67797a599106ef838a71153af57</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>10</order>
+        <parent_ui_id>056b8517-1951-471d-b5f9-c894bf685592</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>a72cd29347265110a4be65a5d36d437d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <ui_id>e2a01e96-4006-40b7-8c4b-7b04d66a321a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a72cd29347265110a4be65a5d36d437d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a72cd29347265110a4be65a5d36d437d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>672cd29347265110a4be65a5d36d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"name$":"FD901993fb6d42d91035773c92a5ee70fc","$COCollectionField":[null]},"complexObjectSchema":{"FlowDesigner:FD901993fb6d42d91035773c92a5ee70fc":{"$COCollectionField":[{"ET_MATERIAL":{"FDcf0953fbbb42d9102c8eb249159593f6":["Any"],"FDcf0953fbbb42d9102c8eb249159593f6.$field_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"66acb5b9-2d89-45e8-af0c-3f2875987f25\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Material\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"999178cd-63d1-40f1-ae43-3f9c822787d6\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"66acb5b9-2d89-45e8-af0c-3f2875987f25\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD901993fb6d42d91035773c92a5ee70fc\",\"child_label\":\"Material\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"999178cd-63d1-40f1-ae43-3f9c822787d6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD901993fb6d42d91035773c92a5ee70fc.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"66acb5b9-2d89-45e8-af0c-3f2875987f25\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD901993fb6d42d91035773c92a5ee70fc\",\"child_label\":\"Material\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"mapped\":\"{}\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"999178cd-63d1-40f1-ae43-3f9c822787d6\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Material">1019d3fb8742d910fd73642d0ebb3500</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a72cd29347265110a4be65a5d36d437d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ET_MATERIAL</field>
+        <id>a72cd29347265110a4be65a5d36d437d</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>232cd29347265110a4be65a5d36d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_393cd67797a599106ef838a71153af57</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>material_string</field>
+        <id>a72cd29347265110a4be65a5d36d437d</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>e32cd29347265110a4be65a5d36d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_393cd67797a599106ef838a71153af57</table>
+        <value>{{f68e038b-70b1-4ed1-9852-ea283b95adf2.material_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mat_obj</field>
+        <id>a72cd29347265110a4be65a5d36d437d</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:48</sys_created_on>
+        <sys_id>6f2cd29347265110a4be65a5d36d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_393cd67797a599106ef838a71153af57</table>
+        <value>{{f68e038b-70b1-4ed1-9852-ea283b95adf2.material_data}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a72cd29347265110a4be65a5d36d437d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a72cd29347265110a4be65a5d36d437d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <comment>Get value of high field</comment>
+        <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>e22cd29347265110a4be65a5d36d4300</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>c356d4bd-af7a-49a7-bc67-d14b1c33bcf0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e22cd29347265110a4be65a5d36d4300"/>
+    <sys_element_mapping action="delete_multiple" query="id=e22cd29347265110a4be65a5d36d4300"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>properties</field>
+        <id>e22cd29347265110a4be65a5d36d4300</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>e62cd29347265110a4be65a5d36d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
+        <value>{{subflow.service_record.integration_service.properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e22cd29347265110a4be65a5d36d4300^sys_idNOT INa22cd29347265110a4be65a5d36d4301"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>property_name</input_name>
+        <instance>e22cd29347265110a4be65a5d36d4300</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"property_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \u0027high\u0027;"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>a22cd29347265110a4be65a5d36d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e22cd29347265110a4be65a5d36d4300"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <comment>Get value of low field</comment>
+        <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>ee2c929347265110a4be65a5d36d43f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>9abc1f0d-25b6-443c-bd14-814548b8711b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee2c929347265110a4be65a5d36d43f6"/>
+    <sys_element_mapping action="delete_multiple" query="id=ee2c929347265110a4be65a5d36d43f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>properties</field>
+        <id>ee2c929347265110a4be65a5d36d43f6</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>e62c929347265110a4be65a5d36d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
+        <value>{{subflow.service_record.integration_service.properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ee2c929347265110a4be65a5d36d43f6^sys_idNOT IN2a2c929347265110a4be65a5d36d43f8,2e2c929347265110a4be65a5d36d43f8"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>properties</input_name>
+        <instance>ee2c929347265110a4be65a5d36d43f6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"properties":{"scriptActive":false}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>2a2c929347265110a4be65a5d36d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>property_name</input_name>
+        <instance>ee2c929347265110a4be65a5d36d43f6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"property_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \u0027low\u0027;"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>2e2c929347265110a4be65a5d36d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee2c929347265110a4be65a5d36d43f6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Source Property Value">3e5359c587ee1190fd73642d0ebb3560</action_type>
+        <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
+        <comment>Get value of option field</comment>
+        <compiled_snapshot>3e5359c587ee1190fd73642d0ebb3560</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>ee2cd29347265110a4be65a5d36d430f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>3bee70f7-868e-4eab-abd1-d90e7872d42b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee2cd29347265110a4be65a5d36d430f"/>
+    <sys_element_mapping action="delete_multiple" query="id=ee2cd29347265110a4be65a5d36d430f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>properties</field>
+        <id>ee2cd29347265110a4be65a5d36d430f</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>e22cd29347265110a4be65a5d36d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3e5359c587ee1190fd73642d0ebb3560</table>
+        <value>{{subflow.service_record.integration_service.properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ee2cd29347265110a4be65a5d36d430f^sys_idNOT INae2cd29347265110a4be65a5d36d4310"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>property_name</input_name>
+        <instance>ee2cd29347265110a4be65a5d36d430f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"property_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \u0027option\u0027;"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>ae2cd29347265110a4be65a5d36d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee2cd29347265110a4be65a5d36d430f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ce2c929347265110a4be65a5d36d439e^sys_idNOT IN262c929347265110a4be65a5d36d43da,6a2c929347265110a4be65a5d36d43df,962c929347265110a4be65a5d36d43d5,a22c929347265110a4be65a5d36d43e3,a22c929347265110a4be65a5d36d43ea,ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e0a2e391876a9190fd73642d0ebb35b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>row_skipped,total_count</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>056b8517-1951-471d-b5f9-c894bf685592</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>262c929347265110a4be65a5d36d43da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <ui_id>100c09c7-2a1c-4dbf-8e0b-3bd308bf317c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=262c929347265110a4be65a5d36d43da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>262c929347265110a4be65a5d36d43da</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>e22c929347265110a4be65a5d36d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <value/>
+        <variable display_value="Row Skipped">922c929347265110a4be65a5d36d43aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>262c929347265110a4be65a5d36d43da</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>ea2c929347265110a4be65a5d36d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <value/>
+        <variable display_value="Total Count">962c929347265110a4be65a5d36d43b1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=262c929347265110a4be65a5d36d43da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>row_skipped</field>
+        <id>262c929347265110a4be65a5d36d43da</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>ae2c929347265110a4be65a5d36d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e</table>
+        <value>{{flow_variable.row_skipped}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_count</field>
+        <id>262c929347265110a4be65a5d36d43da</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>622c929347265110a4be65a5d36d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=262c929347265110a4be65a5d36d43da"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=262c929347265110a4be65a5d36d43da"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=262c929347265110a4be65a5d36d43da^sys_idNOT INe62c929347265110a4be65a5d36d43db"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>total_count</input_name>
+        <instance>262c929347265110a4be65a5d36d43da</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"total_count":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nif(fd_data.flow_var.total_count \u003d\u003d \u0027\u0027 || gs.nil(fd_data.flow_var.total_count)){\nreturn fd_data._10__segregate_material_data.total_rows\n}else {\nreturn fd_data.flow_var.total_count;\n}"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>e62c929347265110a4be65a5d36d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">60a2e391876a9190fd73642d0ebb35b9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <flow_variable/>
+        <flow_variables_assigned>row_skipped</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>056b8517-1951-471d-b5f9-c894bf685592</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>6a2c929347265110a4be65a5d36d43df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <ui_id>6aad5e2a-daa5-4f9f-8543-2ad078cf408b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6a2c929347265110a4be65a5d36d43df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6a2c929347265110a4be65a5d36d43df</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>a62c929347265110a4be65a5d36d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <value/>
+        <variable display_value="Row Skipped">922c929347265110a4be65a5d36d43aa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e^id=6a2c929347265110a4be65a5d36d43df"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=6a2c929347265110a4be65a5d36d43df"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6a2c929347265110a4be65a5d36d43df"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a2c929347265110a4be65a5d36d43df^sys_idNOT INea2c929347265110a4be65a5d36d43e0"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>row_skipped</input_name>
+        <instance>6a2c929347265110a4be65a5d36d43df</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"row_skipped":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar skipped_rows \u003d fd_data.flow_var.row_skipped;\nvar row_count \u003d 50;\nreturn skipped_rows+row_count;"}}</script>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>ea2c929347265110a4be65a5d36d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e8a2e391876a9190fd73642d0ebb35ac</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>962c929347265110a4be65a5d36d43d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <ui_id>056b8517-1951-471d-b5f9-c894bf685592</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=962c929347265110a4be65a5d36d43d5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e^id=962c929347265110a4be65a5d36d43d5"/>
+    <sys_element_mapping action="delete_multiple" query="id=962c929347265110a4be65a5d36d43d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>962c929347265110a4be65a5d36d43d5</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>622c929347265110a4be65a5d36d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{flow_variable.row_skipped}}&gt;={{flow_variable.total_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=962c929347265110a4be65a5d36d43d5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=962c929347265110a4be65a5d36d43d5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=962c929347265110a4be65a5d36d43d5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c9b3243873d1110fd73642d0ebb35ef</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>056b8517-1951-471d-b5f9-c894bf685592</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>a22c929347265110a4be65a5d36d43e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>627ddf16-873e-4f3c-b586-dcb6bad96087</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a22c929347265110a4be65a5d36d43e3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e^id=a22c929347265110a4be65a5d36d43e3"/>
+    <sys_element_mapping action="delete_multiple" query="id=a22c929347265110a4be65a5d36d43e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>a22c929347265110a4be65a5d36d43e3</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>622c929347265110a4be65a5d36d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e2a01e96-4006-40b7-8c4b-7b04d66a321a.material}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=a22c929347265110a4be65a5d36d43e3"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a22c929347265110a4be65a5d36d43e3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a22c929347265110a4be65a5d36d43e3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">019b3243873d1110fd73642d0ebb35fa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>17</order>
+        <outputs_assigned>status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>a22c929347265110a4be65a5d36d43ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>98b33801-8579-4d34-b18c-a335a83d2d07</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a22c929347265110a4be65a5d36d43ea"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e^id=a22c929347265110a4be65a5d36d43ea"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=a22c929347265110a4be65a5d36d43ea"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a22c929347265110a4be65a5d36d43ea"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a22c929347265110a4be65a5d36d43ea"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">709b3243873d1110fd73642d0ebb35f6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>627ddf16-873e-4f3c-b586-dcb6bad96087</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>ae2c929347265110a4be65a5d36d43e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <ui_id>1d2098b7-c742-45af-9763-c86118032cb1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e^id=ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_element_mapping action="delete_multiple" query="id=ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ae2c929347265110a4be65a5d36d43e6</id>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:44</sys_created_on>
+        <sys_id>e62c929347265110a4be65a5d36d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{627ddf16-873e-4f3c-b586-dcb6bad96087.item.MARC}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^id=ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae2c929347265110a4be65a5d36d43e6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ce2c929347265110a4be65a5d36d439e^sys_idNOT IN922c929347265110a4be65a5d36d43aa,962c929347265110a4be65a5d36d43b1"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=42b5691d-a614-4ace-bda5-6bd9a7d7beee</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>row_skipped</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Row Skipped</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</model>
+        <model_id>ce2c929347265110a4be65a5d36d439e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:42</sys_created_on>
+        <sys_id>922c929347265110a4be65a5d36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Row Skipped</sys_name>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_922c929347265110a4be65a5d36d43aa</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f63ff75b-7443-47f4-964d-619dbdf17763</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Material Master Data pull">ce2c929347265110a4be65a5d36d439e</model>
+        <model_id>ce2c929347265110a4be65a5d36d439e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_ce2c929347265110a4be65a5d36d439e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>962c929347265110a4be65a5d36d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Count</sys_name>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_962c929347265110a4be65a5d36d43b1</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ce2c929347265110a4be65a5d36d439e^sys_idNOT IN9a2c929347265110a4be65a5d36d43bc,d22c929347265110a4be65a5d36d43c2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>service_record</element>
+        <help/>
+        <hint/>
+        <label>Service record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ce2c929347265110a4be65a5d36d439e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>9a2c929347265110a4be65a5d36d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>connection_name</element>
+        <help/>
+        <hint/>
+        <label>Connection name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ce2c929347265110a4be65a5d36d439e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>d22c929347265110a4be65a5d36d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ce2c929347265110a4be65a5d36d439e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^sys_idNOT IN962c929347265110a4be65a5d36d43d1,9e2c929347265110a4be65a5d36d43cd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>962c929347265110a4be65a5d36d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+        <sys_id>9e2c929347265110a4be65a5d36d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e^sys_idNOT INda2c929347265110a4be65a5d36d43c7,1a2c929347265110a4be65a5d36d43c9"/>
+    <sys_choice field="status" table="var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da2c929347265110a4be65a5d36d43c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ce2c929347265110a4be65a5d36d439e</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-20 12:13:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a2c929347265110a4be65a5d36d43c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-20 12:13:43</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ce2c929347265110a4be65a5d36d439e"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ce2c929347265110a4be65a5d36d439e"/>
+</record_update>

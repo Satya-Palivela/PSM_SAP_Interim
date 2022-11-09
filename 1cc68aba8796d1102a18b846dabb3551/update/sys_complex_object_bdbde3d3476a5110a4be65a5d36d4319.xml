@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf9bde3d3c06a51108921b6e2472b4e19</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>1cc68aba8796d1102a18b846dabb3551</scope_name>
+        <serialized_content>{"FlowDesigner:FDf9bde3d3c06a51108921b6e2472b4e19":{"$COCollectionField":[{"ET_MATERIAL":{"MARC":[{"$47_MARC":{"MANDT":"String","MANDT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Client\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"56d1e584-6eba-47c2-80f8-23da1f1ded5b\"}"},"WERKS":"String","WERKS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Plant\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"b9dd1774-e35b-4dee-8cb9-b7ddf5d03a7b\"}"},"MATNR":"String","MATNR.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Material No.\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"89ea1c94-ee3c-4130-87df-657727b30a80\"}"}}}],"MARC.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Marc\",\"mandatory\":\"false\",\"child_name\":\"MARC\",\"uiUniqueId\":\"6732c5a1-23a7-4a37-8203-1275587bb348\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Marc Data\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"5ec7fe5d-9c1d-4034-8933-9f8400150881\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"bca804ab-5e8f-4c35-9cdd-dfbe4828fd24\",\"default_value\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"a865d3f7-17e7-4f1a-938b-83f6ffcfa72d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf9bde3d3c06a51108921b6e2472b4e19\",\"child_label\":\"Tables\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3c2376dd-e619-4d86-bb51-557519551623\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"07e35fca-b368-4b45-8f80-b98bf82c43cc\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf9bde3d3c06a51108921b6e2472b4e19.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"bca804ab-5e8f-4c35-9cdd-dfbe4828fd24\",\"default_value\":\"\",\"label\":\"Material\",\"mandatory\":\"false\",\"child_name\":\"ET_MATERIAL\",\"uiUniqueId\":\"a865d3f7-17e7-4f1a-938b-83f6ffcfa72d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf9bde3d3c06a51108921b6e2472b4e19\",\"child_label\":\"Tables\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3c2376dd-e619-4d86-bb51-557519551623\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"07e35fca-b368-4b45-8f80-b98bf82c43cc\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 18:10:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bdbde3d3476a5110a4be65a5d36d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf9bde3d3c06a51108921b6e2472b4e19</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement Service Management Integration for SAP" source="x_snc_psm_sap_intg">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name>sys_complex_object_bdbde3d3476a5110a4be65a5d36d4319</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 18:10:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
